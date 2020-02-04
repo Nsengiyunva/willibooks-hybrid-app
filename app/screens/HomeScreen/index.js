@@ -147,7 +147,7 @@ class HomeScreen extends React.Component {
                <View style={styles.content}>
                    {!this.state.signUpActive ? this.renderSignIn() : this.renderRegister()}
                </View>
-               <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', marginBottom: 1}]} onPress={() => alert('forgotten password')}>
+               <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', marginBottom: 1}]} onPress={() => this.props.navigation.navigate('Listing')}>
                     <Text style={styles.btnText}>{!this.state.signUpActive ? `Login` : `Sign Up`}</Text>
                 </TouchableOpacity>
             </View>
