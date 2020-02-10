@@ -5,6 +5,7 @@ import Listing from '../screens/Listing';
 import Chapters from '../screens/Chapters';
 import SubChapters from '../screens/SubChapters'
 import Preface from '../screens/SubChapters/Preface'
+import Content from '../screens/Content'
 
 const navigator = createStackNavigator(
     {
@@ -12,7 +13,8 @@ const navigator = createStackNavigator(
         Listing,
         Chapters,
         SubChapters,
-        Preface
+        Preface,
+        Content
     },
     {
         defaultNavigationOptions: {

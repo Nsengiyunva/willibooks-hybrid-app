@@ -5,8 +5,8 @@ import { precontent, books } from '../_fixtures';
 
 const { width, height } = Dimensions.get('screen')
 
-const SubChapterItem  = (numberListing, label ) => (
-    <TouchableOpacity key={label} style={{ flexDirection: 'row', justifyContent:'center', alignItems: 'center', width: (width /2.5), height:45, margin: 5, backgroundColor: 'black', opacity: 0.6, }}>
+const SubChapterItem  = (numberListing, label, navigation ) => (
+    <TouchableOpacity onPress={() => navigation.navigate('Content')} key={label} style={{ flexDirection: 'row', justifyContent:'center', alignItems: 'center', width: (width /2.5), height:45, margin: 5, backgroundColor: 'black', opacity: 0.6, }}>
         <Text style={{ color: 'white' , fontSize: 14, fontWeight:'bold' }}>{numberListing}</Text>
         <Text style={{ color: 'white' , fontSize: 14, fontWeight:'bold', marginLeft: 5 }}>{label}</Text>
     </TouchableOpacity>
@@ -37,7 +37,7 @@ class SubChapters extends React.Component {
                 <ScrollView>
                     <View style={{ flexDirection: 'row', flexWrap: 'wrap'}}>
                         {data[0].subchapters.map( (item) => {
-                            return SubChapterItem(item.label, item.name)
+                            return SubChapterItem(item.label, item.name, this.props.navigation)
                         })}
                     </View>
                 </ScrollView>
