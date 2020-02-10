@@ -139,17 +139,25 @@ class HomeScreen extends React.Component {
                        <TouchableOpacity style={[styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 0 : 3 } ]} onPress={() => this.setState({ signUpActive: false })}>
                             <Text style={[styles.btnText, { color: this.state.signUpActive ? 'white': 'orange'} ]}>Sign In</Text>
                        </TouchableOpacity>
-                       <TouchableOpacity style={[ styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 3 : 0 } ]} onPress={() => this.setState({ signUpActive: true })}>
-                            <Text style={[styles.btnText, { color: this.state.signUpActive ? 'orange': 'white' }]}>Sign Up</Text>
+
+                       <TouchableOpacity style={[ styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 3 : 0 } ]} onPress={() => this.props.navigation.navigate('Listing')}>
+                            <Text style={[styles.btnText, { color: this.state.signUpActive ? 'orange': 'white' }]}>View Books</Text>
                        </TouchableOpacity>
                     </View>
                </View>
                <View style={styles.content}>
                    {!this.state.signUpActive ? this.renderSignIn() : this.renderRegister()}
+                    <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', padding: 15 }]} onPress={() => this.props.navigation.navigate('Listing')}>
+                        <Text style={styles.btnText}>{!this.state.signUpActive ? `Login` : `Sign Up`}</Text>
+                    </TouchableOpacity>
+                    {!this.state.signUpActive ? 
+                        <View style={{ justifyContent:'center', alignItems: 'center', marginTop: 50, }}>
+                            <Text>Dont have an account sign up for an account?</Text>
+                            <TouchableOpacity style={{ padding: 10 }} onPress={() => this.setState({ signUpActive: true })}>
+                                <Text>Sign Up</Text>
+                            </TouchableOpacity>
+                        </View>: null }
                </View>
-               <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', marginBottom: 1}]} onPress={() => this.props.navigation.navigate('Listing')}>
-                    <Text style={styles.btnText}>{!this.state.signUpActive ? `Login` : `Sign Up`}</Text>
-                </TouchableOpacity>
             </View>
         )
     }
@@ -162,12 +170,11 @@ const styles = StyleSheet.create({
     topLayer: {
         width: '100%',
         flex: 1.5,
-        // borderWidth: 1,
         backgroundColor: 'green',
         alignItems: 'center'
     },
     content:{
-        flex: 3,  
+        flex: 3,
     },
     innerContent: {
         padding: '5%',
@@ -179,7 +186,6 @@ const styles = StyleSheet.create({
     },
     topBtns: {
         flex: 1,
-        // borderWidth: 1,
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
@@ -191,9 +197,8 @@ const styles = StyleSheet.create({
         color:'white'
     },
     topBtn: {
-        padding: 10,
-        width: width/2,
-        // borderWidth: 0.5,
+        paddingHorizontal: 20,
+        width: width/ 2,
         justifyContent: 'center',
         alignItems:'center'
     }
