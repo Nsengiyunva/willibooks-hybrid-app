@@ -69,7 +69,7 @@ export  const books =  [
                     body: [
                         'Your mind is made up of your ‘Will’ and ‘Emotion.’ Your ‘will’ and emotion are not outside your mind.Both your‘will’ and ‘emotion’ are integral components of yourmind.',
                         'Your ‘will’ is your green card in this world. Itis what allows you to do anything you want to do in life even if it is to go against the will of the One who gave you your ‘will.’ Your “Will” is your God-given authority (domino)“Let them have domino (authority)”',
-                        ' No one has the authority to interfere in your life without your permission. Your Maker will not, the enemy cannot. And until you give permission your life remains yours and yours alone to manage',
+                        'No one has the authority to interfere in your life without your permission. Your Maker will not, the enemy cannot. And until you give permission your life remains yours and yours alone to manage',
                         'Your emotion is more than just your feelings. Decision making is the principal activities of your emotion which is one with your mind.The mind is by far the most important side of your trinity nature. The protection of your mind, therefore, should be your topmost priority because whosoever controls your mind controls your whole being.',
                         'No one knows you better, not even yourself like the way your Creator does. If God made food for your physical body so that you will eat and grow physically, don’t think He did not do likewise for your soul and spirit. Formal and informal education does not grow one’s mind what does is the quality word of the Creator. “…let your heart (spirit) retain my words. Keep my commandment and live.”The quality of everyone’s life depends on the quality and quantity of God’s word in his/her spirit. Instruction, diligent work also grow and develop the human mind'
                     ]
@@ -78,134 +78,97 @@ export  const books =  [
                     name: 'Brain',
                     label:'1.3',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                       'The human brain is not the human mind, and it is also not the custodian of the mind. The brain, however, is a gateway through which the mind brings out to the physical world spiritual things. The mind is far superior to the brain. The brain relates to the physical world while the mind to the spiritual world',
+                       'The human brain is the manufacturer and consumer of physicalknowledge.  Knowledge is the raw material for wisdom. In other words, wisdom cannot be possible without knowledge. However, Knowledge cannot substitute wisdom. That is why your brain and your mind need each other to function well.',
+                       'The brain relates to and gives out knowledge. The heart, which is the gateway to the spirit side of you is the center for understanding. The mind is the seat of wisdom. The mindcannot act on knowledge without understanding. The brain is full of knowledge and acting on knowledge alone is not advisable because knowledge without understanding is a killer.',
+                       'Your life should not just be physical and knowledge-based. You must also stay fully conscious and actively involved in the development of your mind. It is good to gain academic and professional qualifications, but without a sound mind, you cannot deal wisely in life. It is impossible to claim wisdom when you operate day in and day out in knowledge.',
+                       'The brain develops through formal and informal education. A developed brain, however,cannot make up for underdeveloped mind. Therefore, it is advisable to grow on both sides. It is very important because the mind with an underdeveloped brain is limited. It shows you more reason why you must grow from every side, not just physical but also spiritual.'
                     ]
                 },
                 { 
                     name: 'The five senses',
                     label:'1.4',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
+                        'The popularly known human five senses are; sight, hearing, tasting, smelling, and touching. Thou these senses are physical in operation, they are also active warriorsin the fight for control of the mind. It is wise to use them for your victory if not, they may use them against you.',
                         {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
-                    ]
+                            'sight':'The physical eyes are the most crucial parts of our outwardman and the parts that entice us the most!Our physical sight is one of the two gateways into our soul (mind). One has to be very conscious and selective of the things to watch. This is because the enemy’s effort to get into your mind is easily appreciated by the eyes. It is better to refuse your eye the pleasure that will cause you to fall short than to satisfy it and end up opening door to the enemy.',
+                            'hearing': 'The human ear is the most vulnerable of all the physical parts. It is prone not only to physical impulse but spiritual impulse too. It is the enemy first choice when it comes to finding ways to get into your soul. You have to be very sensitive to the kinds of voices you listen to. A warning was given by the Master saying;“Take heed therefore how you hear”',
+                            'tasting': 'The mouth and nose are gateways in and out of our spirits. The mouth is our joint creative tool with our mind. It was not given to us primarily for eating. Nothing in this physical world is as powerful as the human mouth. It has the power to make or to break one’s life.',
+                            'smelling':'The nose is considered to be relatively no threat at all. However, the nose is not just for breathing. Spiritually speaking, the nose is a gateway through which things enter or come out of a man’s spirits. No one stays in a dirty place for long and not be mentally corrupt.',
+                            'touching': 'Touching has to do with feeling, the feeling is not emotion even thou feelings precede emotion, the feeling is physical (brain) and emotion is spiritual (mind). The feeling is associated with want while emotion is associated with need. Want never brings satisfaction only need does. A wanting man will suffer anxiety.'
+                        }]
                 },
                 { 
                     name: 'Brain vs. Mind',
                     label: '1.4',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world is within the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'The human brain controls the body. It regulates how the body functions. The brain is mortal and is limited to this physical world. Unlike the mind, the braincannot appreciate spiritual things. The brain dies together with the body. The brain is visible to the physical eye.',
+                        'The human mind is spiritual in nature and it exists in the spiritual realm. The mind is not in the brain. The mind controls the brain and is far superior to the brain. The mind is eternal; never dies. The mind is invisible to the physical eye. The mind is on the soul side ofthe human nature. Imagination and meditation are done on the inside of the mind.',
+                        'The Mind is the center for creation. It is the mind that holds our identity. Everything about us and arrund us is influenced gratly by the mind. The mind is to the brain what a lieutenant colonel is to a sergent, far superior! What makes us human is our minds, without the mind, our humanity is incomplete.',
+                        'The brain is of the outside world, the physical eye sight, smelling, tasting, feelings, moving, are all brain possibilities. Without the brain, humans can not relate to the physical world. The brain is primarily given to us to oprate or to relate to our physical world.',
+                        'With all consideration, your mind is the steering of your life, therefore, be very careful of who or what you allow to seat behind it. Your mind is the controller of your whole life and whosoever or whatsoever you allow to possess your mind, the same you become servant to.'
                     ]
                 },
             ]
         },
         {
             title: 'Mind Classifications',
+            subtitle: 'Due to our different up-bringings, cultural backgounds, nationalities and religious affliations, the human mind has become something of classes and of types. In this chapert, we are going to look into the classifications of the Mind.',
             label: '2',
             subchapters: [
                 { 
                     label: '2.1',
                     name: 'Control mind',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'A control mind is a mind under the influential power of someone or something belive to be superior to it. A contoled mind acts according to the dictates of its controller. Such a mind is under a spell; nothing of its own will is done except that of its contollr’s. A contoled Mind is a dysfunctional mind; unproductive and well miss used.',
+                        'Your mind was not designed to be controlled by anyone else other than youself. This is why to allow circumstance control your mindwill reduces your ability to function well as human. Your mind is one of the two sides placed under your control. The responsibility therefore is on you, God will not control your mind for you. And for God to protect your mind, you got to fix your mind on Him.',
+                        'When you are in full control of your mind, your thoughts are well managed and your actions are well planed. All your doings bring you satisfaction. But when you are not in contrl of your mind, you become expact in negative thought. You hate to stop doing the things you hate to do.  You become a foeigner  to peace and stranger to joy!',
+                        'It is a fearful thing for your mind to be controlled by cicumstances. It causes you to act as thou you have no mind. As far as life is concern, a mindless human being is worse than a mindful demon. When circumstances control your mind, you end up becoming a slave to them. Nothing, absolutely nothing can stop you from doing whatsoever circumstances command you to do!',
+                        'What makes you a free moving and free doing human being is your uncontol mind. It is in your mind the sences of freedom to live is felt and observed. If your mind is not under your full control, then it is true to say you are not a free person. Controling the mind is something God will never do to anyone of us! And the authority to control your mind is in your hand! What is keeping many people in mental slavery is their refusal to acknowledge their God given authority over their own mind. No matter how powerful your controller may be, you have the authority. And authority, when it is legal, is powerful than power!'
                     ]
                 },
                 { 
                     name: 'Depedent mind',
                     label: '2.2',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'Dependent mind is a mind that is programed, developed, and trained to depend on someone else other than itself. This is the mind set that gives slavery a mining. Dependent mind gives birth to poverty and  failure. This mindset stops you from becoming yourself.',
+                        'Your mind is no dobut unlimited and the riches traped there is unmesurable but dependency robsthe mind off its riches. The objective of this mindset is to stop you from offring your gift to the world. It hides you in other people and make you unknow to yourself and to the world.',
+                        'Dependent mind looks up to others for almost everything. There is no self awareness to such a mind. It is conscious of others than of itself. Dependent mind is limiting; non with such a mindset exceed in life. The secrect to success is independent mentality. Dependent mind never suceesd, what does is independent mind.',
+                        'Dependency is a snere to your mind. Do you want to discovered your gift and eventually serve it to your world? The only way that can be possible is when you developed an independent mentatlity. Until you start writing your own plan, paying your own bills, spreding your own bed, eating your own food, success is a pluto mile away from you.',
+                        'Success is not a slave nor a servant to anything. For this reason, success is only attractive to free minded people; people  with an idependent attitude.  Success comes with huge responsibility. Therefore, only responsible mind can handle success. Dependent mind is an irresponsible mind but independent mind is a responsible mind.'
                     ]
                 },
                 { 
                     name: 'Poor mind',
                     label: '2.3',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'If you can hide seven month pregnancy from the public, then you can hinder poor mentality. It’s like odor, it doesn’t need introduction! When it shows up everyone takes notice! The signs of poor mentality are; foolish, Lawless, suspicious, dishonesty and filthiness.',
+                        '“The way of a fool is wise in his own eye…”  “A fool is anyone who despises wisdom, instruction, and correction from a proven mentor”. Foolishness is the only language a fool understands.  A fool is a fool to an extent that he cannot know nor can he accepts that he is a fool.  His head is full of breeze and yet he brags of its size thinking there is substance in it.',
+                        'A poor minded mind is suspicious of everything. Nothing to such a man worth his trust. He is doubtful and weary of everyone and of everything around him. Nobody is truthful and godly but him. He is too quick to accuse people and too quick to isolate himself from other people. In his narrow mind, he thinks everyone is against him or jealous of him.',
+                        'Filthiness is a result of a poor mindset. What is primarily responsible for filthiness is lazy-mind. Filthy people are lazy-minded.  They lack the power to be clean. These are the ways of a filthy person; disorganize, careless, lazy to clean his dwelling, no care for his wellbeing, and publicly unpresentable. Filthiness is not something one cannot turn away from. We all have the power to decide. And the decision to be clean is something everyone can and must make.',
+                        'Corrupt minded people are also known for their selfish nature. Nobody else deserve better but them. Everything is about them, they have no regard for other people’s interest.Their hearts are like bottom less pit; nothing satisfy them. Anytime, anywhere, anyhow they want it.They are like vacuum nothing fills them up! They are unappreciative and very-very self-centered.',
                     ]
                 },
                 { 
                     name: 'Corrupt Mind',
                     label: '2.4',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'Corrupt mentality gives birth to carefree, reckless and lawless living. A lawless man is a man who doesn’t keep to rules and regulations, he hates instruction and despises warning. Lawless way of living damages the mind; it reduces one’s megabyte. It is impossible for such a mind to live a successful and peaceful life.',
+                        'A corupt mind exibites dishonesty. A dishonest man is one with a poor mindset. He cannot belive that there is a better life outside dishonesty. He sees life incomplete without dishonesty. All of his ways are crucred, and dubious. He lacks truth and sincerity. With such a mindset, it is imposible for anyone to live a happy and successful life.',
+                        'An envy man is a heavy man. Nothing makes one heavier like envy. Envy is a result of corupt mentality.An envious person will always seek to down talk other people’s achievement. Each time an envious person hear about other people’s accomplishment, he tries to talk it away from the mouth of those talking about it. An envious person sees everyone has competitor or rival. He is competing with everybody to the care-less of others.',
+                        'Violent is another sign of corupt mindset. A violence man is a man with coroupt mentality. He sees life as a battle filed. To him, everyone around him is his target. There is no sign of softness or peacefulness in him. Violence to him is the best way to show one’s superiority. He does everything in voilwnce. He ask violently, he takes violently, he response violently. To him, violent is the way of life.',
+                        'A quarrelsome person has corrupt mentality. He lacks good manner and there is no calmness in him. Such a person cannot stay for a day without quarreling. No matter how quiet everything seems to be around him, he will still get his way into quarreling.  His mouth is like radio wave ready to pick out quarrels from every side; family, friends, neighbors, workmate, classmate etc. He is always ready for it.  Quarrel never takes him unaware!'
                     ]
                 },
                 { 
                     name: 'Sound Mind',
                     label:'2.5',
                     body: [
-                        {   label: 'Paragraph 1',
-                            content: 'The most considerable deposit in the world iswithin the human mind. There is no measure to the riches of the human mind. Nothing manmade is taller, stronger or bigger than the human mind! The depth of the human mind is unsearchable, and its capability is unlimited. Diamond, gold, and hydrocarbon are worthless compared to the value of the human mind. In this chapter, you will understand the mind, the brain, and their differences.'
-                        },
-                        {   label: 'Paragraph 2',
-                            content: 'Your mind is not your brain, and it is not inside your brain. The brain, however, is a gateway to the mind. Your mind is not physical but spiritual.No medical doctor can drill or operate the head in search of the mind. The mind exists in a different realm on the inside of the physical body. Let us first get an understanding of human nature; what is humankind?'
-                        },
-                        {
-                            label: 'Paragraph 3',
-                            content: 'All human beings are trinity beings.The word “Trinity” means three in one.You are a spirit being, you possess a soul, and you live in a physical body.Your soul is the second and most important side of your human nature (Trinity). Your spirit is the real you and never dies.Your physical side is the only side of your human nature that dies. It is so important for us to know this truth about our human nature.The knowledge of this truth will bring you a revolution of Who God is.'
-                        }
+                        'A praiseful life is a victorious life.” ..God enlarges your understanding and gives you new ideas with which you excel in all your endeavors” praising is the way of life for all God fearing people. A sound minded person has the fear of God in him. He does not live contrary to God’s word. The praise of the Lord is always in the mouth of a God fearing man. His praises for God are true and experimental to him.',
+                        '“Wise men lay-up knowledge...”A sound minded man is a wise man. Understanding is light and it brings you into the presences of wisdom. A sound minded man values understanding than diamond and gold. What causes one to act wisely is understanding. Wisdom is dead without understanding, a sound mind delights in understanding for by it the mind is wise.  A wise man is wise not just by his words but by his actions. He is well organized in all of his doings. Everything about him is in order',
+                        'Who does not like to be with a peaceful person? Everybody likes to stay around peaceful people; people who most of the time looks good, loving and friendly. A peaceful person is medicinal not just to his own soul but to others as well. A sound minded man hardly gets offended or bitter over something. He is all the time happy and joyful',
+                        'Love is with a sound minded man. He loves everyone with the God-kind of love. He finds gret pleasure in loving people unconditionally. A sound mind exhibits the true nature of God to others; loving, helpful, kind, respectful and friendly. A sound minded man is all the time hopeful, joyful and loving',
+                        'Honesty is also another feature of a sound mind. A sound  minded man is never without the truth. He is truthful and straightforward in all his ways. His heart is clean and his mind is clear. Nothing attracts him to lies or to dishonesty. A honest man whos mind is sound, is like sweet perfume that attract the praises of men and the blessings of God.'
                     ]
                 },
             ]

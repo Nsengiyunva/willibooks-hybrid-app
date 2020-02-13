@@ -4,24 +4,40 @@ import { View, Text, TouchableOpacity, ScrollView, Dimensions } from 'react-nati
 const { width, height } = Dimensions.get('screen')
 
 class Content extends React.Component {
-    renderItem = label => (
-        <View style={{ width, backgroundColor: 'orange', justifyContent: 'center', alignItems: 'center' }}>
-            <Text>{label}</Text>
+    renderItem = (label, index) => (
+        <View key={index} style={{ width, padding: 10, paddingVertical: 25  }}>
+            <Text style={{ textAlign: 'center', fontSize: 17 }}>
+                <Text style={{ fontSize: 25, lineHeight: 28, marginRight: 5, fontWeight: 'bold'}}>
+                    {`${index+1}.`}</Text>{`${label}`}
+                </Text>
         </View>
     )
     render(){
+        const data = this.props.navigation.state.params.data;
+        const bookTitle = this.props.navigation.state.params.bookTitle;
+        const chapter = this.props.navigation.state.params.chapter;
+        const subchapter = this.props.navigation.state.params.subchapter;
+        
         return (
-            <View style={{ flex: 1 }}>
+            <View style={{ flex: 1, backgroundColor: 'white', paddingVertical: 50 }}>
+                <>
+                    {/* <Text style={{ fontSize: 24, textAlign: 'center' }}></Text> */}
+                    <View style={{ flexDirection: 'row',justifyContent: 'center', backgroundColor: 'green',padding: 10 }}>
+                        <TouchableOpacity style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+                            <Text style={{ fontSize: 20, color:'white' }}>{`Your Mind/`}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+                            <Text style={{ fontSize: 20,color:'white' }}>{`Chapter ${chapter}/`}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+                            <Text style={{ fontSize: 20, color:'white' }}>{`${bookTitle}`}</Text>
+                        </TouchableOpacity>
+                    </View>
+                </>
                 <ScrollView horizontal>
-                    <View style={{ width, borderWidth: 1, backgroundColor: 'red' }}>
-                        <Text>Child 1</Text>
-                    </View>
-                    <View style={{ width, borderWidth: 1, backgroundColor: 'green' }}>
-                        <Text>Child 2</Text>
-                    </View>
-                    <View style={{ width, borderWidth: 1, backgroundColor: 'orange' }}>
-                        <Text>Child 5</Text>
-                    </View>
+                    {data.map( (value, index) => {
+                        return this.renderItem( value,index )
+                    })}
                 </ScrollView>
             </View>
         )

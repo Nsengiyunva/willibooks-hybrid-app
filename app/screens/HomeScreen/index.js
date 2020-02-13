@@ -18,7 +18,8 @@ class HomeScreen extends React.Component {
         emailAddress: '',
         confirmPassword:'',
         phoneNumber:'',
-        signUpActive: false
+        signUpActive: false,
+        viewAbout: true
     }
     _updateMasterState = (attrName, value) => {
         this.setState({ [ attrName ]: value })
@@ -56,6 +57,16 @@ class HomeScreen extends React.Component {
                             <Text style={[styles.btnText,{ color:'black'}]}>Forgot Password ?</Text>
                         </TouchableOpacity>
                    </View>
+        )
+    }
+    renderAbout = () => {
+        return (
+            <View style={{ flex: 1, backgroundColor: 'white', padding: 25, justifyContent:'flex-start', alignItems: 'center' }}>
+                <Text>Willibooks Limited is a book selling company limited.  Willibooks Limited is a book selling company.</Text>
+                <TouchableOpacity style={{ position: 'absolute', bottom: 5, borderWidth: 1, padding: 10 }} onPress={() => alert('terms and conditions')}>
+                    <Text>View Terms and Conditions</Text>
+                </TouchableOpacity>
+            </View>
         )
     }
     renderRegister= () => {
@@ -136,8 +147,11 @@ class HomeScreen extends React.Component {
                         <Text style={styles.title}>Willibooks</Text>
                     </View>
                     <View style={styles.topBtns}>
-                       <TouchableOpacity style={[styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 0 : 3 } ]} onPress={() => this.setState({ signUpActive: false })}>
+                       {/* <TouchableOpacity style={[styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 0 : 3 } ]} onPress={() => this.setState({ signUpActive: false })}>
                             <Text style={[styles.btnText, { color: this.state.signUpActive ? 'white': 'orange'} ]}>Sign In</Text>
+                       </TouchableOpacity> */}
+                        <TouchableOpacity style={[styles.topBtn, { borderBottomWidth: !this.state.viewAbout ? 0 : 3 } ]} onPress={() => this.setState({ viewAbout: true })}>
+                            <Text style={[styles.btnText, { color: !this.state.viewAbout ? 'white': 'orange'} ]}>About Us</Text>
                        </TouchableOpacity>
 
                        <TouchableOpacity style={[ styles.topBtn, { borderBottomWidth: this.state.signUpActive ? 3 : 0 } ]} onPress={() => this.props.navigation.navigate('Listing')}>
@@ -146,17 +160,17 @@ class HomeScreen extends React.Component {
                     </View>
                </View>
                <View style={styles.content}>
-                   {!this.state.signUpActive ? this.renderSignIn() : this.renderRegister()}
-                    <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', padding: 15 }]} onPress={() => this.props.navigation.navigate('Listing')}>
+                   {this.state.viewAbout && this.renderAbout()}
+                    {/* <TouchableOpacity style={[styles.topBtn,{ width: '100%', backgroundColor: 'orange', padding: 15 }]} onPress={() => this.props.navigation.navigate('Listing')}>
                         <Text style={styles.btnText}>{!this.state.signUpActive ? `Login` : `Sign Up`}</Text>
-                    </TouchableOpacity>
-                    {!this.state.signUpActive ? 
+                    </TouchableOpacity> */}
+                    {/* {!this.state.signUpActive &&
                         <View style={{ justifyContent:'center', alignItems: 'center', marginTop: 50, }}>
                             <Text>Dont have an account sign up for an account?</Text>
                             <TouchableOpacity style={{ padding: 10 }} onPress={() => this.setState({ signUpActive: true })}>
                                 <Text>Sign Up</Text>
                             </TouchableOpacity>
-                        </View>: null }
+                        </View>} */}
                </View>
             </View>
         )
