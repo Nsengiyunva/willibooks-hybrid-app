@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, ScrollView, Dimensions } from 'react-native';
+import Rave from 'react-native-rave-webview';
 
-const { width, height } = Dimensions.get('screen')
+const { width } = Dimensions.get('screen')
 
 class Content extends React.Component {
     renderItem = (label, index) => (
@@ -12,6 +13,34 @@ class Content extends React.Component {
                 </Text>
         </View>
     )
+    onSuccess = data => {
+        console.log(data, 'was successful')
+    }
+    onCancel = () => {
+        console.log('this was cancelled')
+    }
+    // render(){
+    //     return (
+    //         <View style={{ flex: 1, backgroundColor: 'green'}}>
+    //             <Text>Test</Text>
+    //             <Rave 
+    //                 buttonText={`Pay Now`}
+    //                 raveKey='FLWPUBK_TEST-2b2c8a593d5736bf58002312659004d4-X'
+    //                 amount={5000}
+    //                 billingEmail="kingbecks07@gmail.com"
+    //                 billingMobile="256703019014"
+    //                 billingName="King Isaac"
+    //                 ActivityIndicatorColor="green"
+    //                 onCancel={()=>this.onCancel()}
+    //                 onSuccess={(transactionRef)=>this.onSuccess(transactionRef)}
+    //                 btnStyles={{ backgroundColor: 'white'}}
+    //                 textStyles={{ color: 'green '}}
+    //                 onError={()=>{alert('something went wrong')}}
+    //                 txref="1234"
+    //             />
+    //         </View>
+    //     )
+    // }
     render(){
         const data = this.props.navigation.state.params.data;
         const bookTitle = this.props.navigation.state.params.bookTitle;

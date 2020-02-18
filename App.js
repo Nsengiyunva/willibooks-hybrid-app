@@ -4,6 +4,7 @@ import Navigator from './app/navigation'
 import { TextInput, View, Text, TouchableOpacity } from 'react-native'
 import TodoService  from './app/_services/TodoService'
 import TodoModel  from './app/models/TodoModel'
+// import Content from './app/screens/Content';
 import Utils from './app/_utils'
 
 import HomeScreen from './app/screens/HomeScreen'
